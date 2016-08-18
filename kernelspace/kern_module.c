@@ -2,7 +2,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Ivannikov Igor");
-MODULE_DESCRIPTION("Testing char dev module");
+MODULE_DESCRIPTION("Test Netlink");
 
 int init_module(void)
 {
