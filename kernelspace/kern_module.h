@@ -7,10 +7,10 @@
 #include <net/netlink.h>
 
 #define NETLINK_MYPROTO 17
-#define MAX_PAYLOAD     1024  /* maximum payload size*/
+#define MAX_PAYLOAD     1024
 
-extern struct net 					init_net;
-static struct sock 					*ntl_sock;
+extern struct net 			init_net;
+static struct sock 			*ntl_sock;
 static struct netlink_kernel_cfg 	ntl_cfg;
 
 int init_module(void);
